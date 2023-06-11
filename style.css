@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .left-container,
+  .right-container {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 2px dashed gray;
+  }
+  
+  .item {
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: move;
+  }
+  
+  .success-message {
+    color: green;
+    font-weight: bold;
+  }
+  
